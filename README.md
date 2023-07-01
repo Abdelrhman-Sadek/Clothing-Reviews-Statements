@@ -1,5 +1,5 @@
 # `Description`
-First started by exploring and cleaning the data from Nulls using SQL by deleting the null columns in the `Review Text` and `Division Name` and then merging the statement title with `Review Text` into `Review` column
+First started by exploring and cleaning the data from Nulls using SQL by deleting the null columns in the `Review Text` and `Division Name` and then merging the statement title with `Review Text` into the `Review` column
 
 ```sql
 ALTER TABLE [Womens Clothing]
@@ -30,3 +30,14 @@ SELECT *
 FROM [Womens Clothing]
 
 ```
+
+then upload the data to Power bi and using Dax and Power query:
+* Calculated the most frequent `Rate` and `Age` and their frequency
+* split the reviews column into `positive reviews` and `negative reviews` based on `Recommendations` *Recommended-->Positive / Not Recommended Negative*
+
+Then made the dashboard to gain insights `sales` `reviews` `categorys` etc
+
+## `Dashboard`
+<p align = 'center'>
+ <img src='https://github.com/Abdelrhman-Sadek/Clothing-Reviews-Statements/blob/main/Dashboard/Dashboard.png'>
+</p>
