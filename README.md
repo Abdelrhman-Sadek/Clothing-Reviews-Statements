@@ -35,7 +35,7 @@ then upload the data to Power bi and using Dax and Power query:
 * Calculated the most frequent `Rate` and `Age` and their frequency
 * split the reviews column into `positive reviews` and `negative reviews` based on `Recommendations` *Recommended-->Positive / Not Recommended Negative*
 
-Then made the dashboard to gain insights `sales` `reviews` `categorys` etc
+Then made the dashboard to gain insights into `sales`, `reviews`, `categories`, etc
 
 ## `Dashboard`
 <p align = 'center'>
