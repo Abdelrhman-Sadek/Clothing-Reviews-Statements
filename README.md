@@ -1,4 +1,6 @@
 # `Description`
+Analyzing the company's sales and the customer's reviews about the products through:
+<br>
 First started by exploring and cleaning the data from Nulls using SQL by deleting the null columns in the `Review Text` and `Division Name` and then merging the statement title with `Review Text` into the `Review` column
 
 ```sql
